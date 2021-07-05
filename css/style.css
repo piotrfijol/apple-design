@@ -1,0 +1,132 @@
+body {
+  background-color: goldenrod;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  border-radius: 7px;
+  height: 35px;
+  width: 100%;
+  padding: 0;
+  background: linear-gradient(0deg, #777 0%, #777 50%, #888 50%, #888 100%);
+}
+
+nav ul li {
+  border-right: 1px solid #666;
+  align-self: center;
+}
+
+nav ul li a {
+  display: block;
+  min-width: 100px;
+  height: 35px;
+  background-image: url("https://images.apple.com/global/nav/images/globalnav_text.png");
+}
+
+nav ul li:nth-child(0) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(0) a {
+  background-position: -30px 33px;
+}
+
+nav ul li:nth-child(1) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(1) a {
+  background-position: -30px 3px;
+}
+
+nav ul li:nth-child(2) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(2) a {
+  background-position: -30px -27px;
+}
+
+nav ul li:nth-child(3) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(3) a {
+  background-position: -30px -57px;
+}
+
+nav ul li:nth-child(4) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(4) a {
+  background-position: -30px -87px;
+}
+
+nav ul li:nth-child(5) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(5) a {
+  background-position: -30px -117px;
+}
+
+nav ul li:nth-child(6) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(6) a {
+  background-position: -30px -147px;
+}
+
+nav ul li:nth-child(7) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(7) a {
+  background-position: -30px -177px;
+}
+
+nav ul li:nth-child(8) {
+  flex: 1;
+  max-width: 105px;
+}
+nav ul li:nth-child(8) a {
+  background-position: -30px -207px;
+}
+
+nav ul li:last-child {
+  height: 100%;
+  text-align: center;
+  padding: 0 1em;
+  position: relative;
+  margin: 0;
+  border-right: none;
+}
+nav ul li:last-child input {
+  transform-origin: right;
+  margin-top: 0.7em;
+  width: 110px;
+  border-radius: 8px;
+  border: none;
+  float: right;
+  background-color: rgba(210, 210, 210, 0.7);
+  transition-duration: 0.3s;
+}
+nav ul li:last-child input:focus {
+  flex: 1;
+  width: 160px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
