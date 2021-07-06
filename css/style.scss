@@ -1,15 +1,19 @@
 body {
-    background-color: goldenrod;
+    margin: 0;
 }
 
 #wrapper {
-    width: 1000px;
+    width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 
 nav {
-    
+    width: 1000px;
     overflow: hidden;
+    position: absolute;
+    left: 15%;
+    top: 10%;
 }
 
 nav ul{
@@ -58,9 +62,11 @@ nav ul li:last-child {
         margin-top: .7em;
         width: 110px;
         border-radius: 8px;
+        float: right;
         border: none;
-        float:right;
-        background-color: rgba(210, 210, 210, 0.7);
+        background-color: rgba(210, 210, 210, 0.4);
+        color: #FFF;
+        padding-left: .5em;
         transition-duration: .3s;
     }
 
