@@ -35,7 +35,7 @@ nav ul li a {
     display: block;
     min-width: 100px;
     height: 35px;
-    background-image: url('https://images.apple.com/global/nav/images/globalnav_text.png');
+    background-image: url('/assets/images/globalnav_text.png');
 }
 
 @for $i from 0 to 9 {
